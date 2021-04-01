@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { NavLinks } from "./NavLinks";
 import { DeviceSize } from "./responsive";
 import { MobileNavLinks } from "./MobileNavLinks";
+import { useMediaQuery } from "react-responsive";
 
 const NavbarContainer = styled.div`
   width: 100%;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { MenuToggle } from "./menuToggle";
+import { MenuToggle } from "./MenuToggle";
 
 const NavLinksContainer = styled.div`
   height: 100%;
