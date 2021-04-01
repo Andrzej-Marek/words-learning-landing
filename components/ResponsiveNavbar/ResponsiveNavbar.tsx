@@ -1,12 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
-// import { Logo } from "../logo";
-import { Accessibility } from "./accessibility";
-import { NavLinks } from "./navLinks";
+import { NavLinks } from "./NavLinks";
 import { DeviceSize } from "./responsive";
-import { MobileNavLinks } from "./mobileNavLinks";
+import { MobileNavLinks } from "./MobileNavLinks";
 
 const NavbarContainer = styled.div`
   width: 100%;

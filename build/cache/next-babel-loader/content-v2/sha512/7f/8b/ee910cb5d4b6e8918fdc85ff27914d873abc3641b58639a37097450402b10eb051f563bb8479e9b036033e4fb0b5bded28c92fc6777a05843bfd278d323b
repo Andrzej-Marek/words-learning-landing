@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createGlobalStyle } from \"styled-components\";\nexport const GlobalStyle = createGlobalStyle`\n    #details-lightbox-2 {\n        display: none !important;\n    }\n    .mfp-close.x-button {\n        display: none !important;\n    }\n`;","map":null,"metadata":{},"sourceType":"module"}
