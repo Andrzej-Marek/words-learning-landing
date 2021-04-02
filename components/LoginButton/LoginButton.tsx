@@ -9,7 +9,11 @@ type Props = OwnProps;
 const LoginButton: FC<Props> = () => {
   const { t } = useTranslation("nav");
   return (
-    <Wrapper href="https://app.wordswheel.com/login" target="_blank">
+    <Wrapper
+      href="https://app.wordswheel.com/login"
+      target="_blank"
+      rel="noreferrer"
+    >
       {t("login")}
     </Wrapper>
   );

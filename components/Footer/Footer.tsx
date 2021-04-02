@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import { useTranslation } from "react-i18next";
+import { Links } from "../../constants/links";
 
 interface OwnProps {}
 
@@ -7,6 +8,7 @@ type Props = OwnProps;
 
 const Footer: FC<Props> = () => {
   const { t } = useTranslation("footer");
+  const CURRENT_YEAR = new Date().getFullYear();
   return (
     <>
       <div className="footer">
@@ -51,13 +53,13 @@ const Footer: FC<Props> = () => {
               <div className="footer-col last">
                 <h4>{t("socialMedia")}</h4>
                 <span className="fa-stack">
-                  <a href="#your-link">
+                  <a href={Links.FACEBOOK} target="_blank" rel="noreferrer">
                     <i className="fas fa-circle fa-stack-2x"></i>
                     <i className="fab fa-facebook-f fa-stack-1x"></i>
                   </a>
                 </span>
                 <span className="fa-stack">
-                  <a href="#your-link">
+                  <a href={Links.INSTAGRAM} target="_blank" rel="noreferrer">
                     <i className="fas fa-circle fa-stack-2x"></i>
                     <i className="fab fa-instagram fa-stack-1x"></i>
                   </a>
@@ -73,8 +75,8 @@ const Footer: FC<Props> = () => {
           <div className="row">
             <div className="col-lg-12">
               <p className="p-small">
-                Copyright © {new Date().getFullYear}{" "}
-                <a href="https://inovatik.com">wordswheel.com</a> - All rights
+                Copyright © {CURRENT_YEAR}{" "}
+                <a href={Links.LANDING_PAGE}>wordswheel.com</a> - All rights
                 reserved
               </p>
             </div>
