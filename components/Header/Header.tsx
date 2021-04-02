@@ -1,6 +1,7 @@
-import Head from "next/head";
+import { useTranslation } from "next-i18next";
 
 export default function Header() {
+  const { t } = useTranslation(["header", "common"]);
   return (
     <header id="header" className="header">
       <div className="header-content">
@@ -9,15 +10,12 @@ export default function Header() {
             <div className="col-lg-6">
               <div className="text-container">
                 <h1>
-                  <span className="turquoise">StartUp Landing</span> Page
-                  Template Free
+                  <span className="turquoise">{t("mainTitle")}</span>{" "}
+                  {t("mainTitleSecoundPart")}
                 </h1>
-                <p className="p-large">
-                  Use Evolo free landing page template to promote your business
-                  startup and generate leads for the offered services
-                </p>
+                <p className="p-large">{t("description")}</p>
                 <a className="btn-solid-lg page-scroll" href="#services">
-                  DISCOVER
+                  {t("common:check")}
                 </a>
               </div>
             </div>

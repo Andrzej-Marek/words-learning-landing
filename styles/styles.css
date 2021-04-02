@@ -1178,8 +1178,8 @@ input[type="checkbox"] {
 /*     12. Video     */
 /*********************/
 .basic-3 {
-  padding-top: 6.875rem;
-  padding-bottom: 6.125rem;
+  padding-top: 2.875rem;
+  padding-bottom: 2.125rem;
 }
 
 .basic-3 h2 {
@@ -1196,7 +1196,16 @@ input[type="checkbox"] {
 }
 
 .basic-3 .video-wrapper {
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
   position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* Video Play Button */

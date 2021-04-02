@@ -1,0 +1,18 @@
+{
+    "step1": {
+        "title": "Tłumaczenie Słów Przy Codziennej Pracy",
+        "description": "Wystaczy zazanczyć słowo, a nasze rozwiązanie zaproponuje Ci odrazu mozliwość przetłumaczenia danego słowa. "
+    },
+    "step2": {
+        "title": "Funkcjonalości",
+        "description": "Dzieki naszej aplikacji, mozesz uczyc sie gdziekolwiek tylko zechcesz i na jakim urządzeniu zechcesz",
+        "features": {
+            "1": "Tłumaczenie słów oraz wyrazeń",
+            "2": "Zapisywanie przetłumaczonych słów do aplikacji",
+            "3": "Mozliwość wyboru wielu profili językowych",
+            "4": "Tworzenie fiszek",
+            "5": "Interaktywne fiszki online w apliacji",
+            "6": "Tłumacznie w wtyczcie przeglądarki"
+        }
+    }
+}

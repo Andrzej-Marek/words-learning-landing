@@ -1,10 +1,12 @@
 import React, { FC } from "react";
+import { useTranslation } from "react-i18next";
 
 interface OwnProps {}
 
 type Props = OwnProps;
 
 const Footer: FC<Props> = () => {
+  const { t } = useTranslation("footer");
   return (
     <>
       <div className="footer">
@@ -12,15 +14,12 @@ const Footer: FC<Props> = () => {
           <div className="row">
             <div className="col-md-4">
               <div className="footer-col">
-                <h4>About Evolo</h4>
-                <p>
-                  We're passionate about offering some of the best business
-                  growth services for startups
-                </p>
+                <h4>{t("about")}</h4>
+                <p>{t("description")}</p>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="footer-col middle">
+              {/* <div className="footer-col middle">
                 <h4>Important Links</h4>
                 <ul className="list-unstyled li-space-lg">
                   <li className="media">
@@ -46,11 +45,11 @@ const Footer: FC<Props> = () => {
                     </div>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div className="col-md-4">
               <div className="footer-col last">
-                <h4>Social Media</h4>
+                <h4>{t("socialMedia")}</h4>
                 <span className="fa-stack">
                   <a href="#your-link">
                     <i className="fas fa-circle fa-stack-2x"></i>
@@ -60,25 +59,7 @@ const Footer: FC<Props> = () => {
                 <span className="fa-stack">
                   <a href="#your-link">
                     <i className="fas fa-circle fa-stack-2x"></i>
-                    <i className="fab fa-twitter fa-stack-1x"></i>
-                  </a>
-                </span>
-                <span className="fa-stack">
-                  <a href="#your-link">
-                    <i className="fas fa-circle fa-stack-2x"></i>
-                    <i className="fab fa-google-plus-g fa-stack-1x"></i>
-                  </a>
-                </span>
-                <span className="fa-stack">
-                  <a href="#your-link">
-                    <i className="fas fa-circle fa-stack-2x"></i>
                     <i className="fab fa-instagram fa-stack-1x"></i>
-                  </a>
-                </span>
-                <span className="fa-stack">
-                  <a href="#your-link">
-                    <i className="fas fa-circle fa-stack-2x"></i>
-                    <i className="fab fa-linkedin-in fa-stack-1x"></i>
                   </a>
                 </span>
               </div>
@@ -92,8 +73,9 @@ const Footer: FC<Props> = () => {
           <div className="row">
             <div className="col-lg-12">
               <p className="p-small">
-                Copyright © 2020 <a href="https://inovatik.com">Inovatik</a> -
-                All rights reserved
+                Copyright © {new Date().getFullYear}{" "}
+                <a href="https://inovatik.com">wordswheel.com</a> - All rights
+                reserved
               </p>
             </div>
           </div>

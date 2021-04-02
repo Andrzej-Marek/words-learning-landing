@@ -1,0 +1,16 @@
+{
+    "mainTitle": "Szybka I Przyjemna Nauka",
+    "description": "Ucz się wykonując codzienne czynności na komputerze. Nie znacz znaczenia jakiegos słowa? Nic prostrzego, zaznacz je i sprawdź tłumaczenia",
+    "tile1": {
+        "title": "Komunikacja",
+        "description": "Dzięki większej ilości zapamiętanych słów, mozesz znacznie poprawić swoje umiejętności komunikacyje w jęzku obcym"
+    },
+    "tile2": {
+        "title": "Osiągnij Cel",
+        "description": "Twoim celem jest jak najlepiej posługiwać się wybranym językiem obcym? Z aplikacją wordswheel stanie się to niezwykle proste!"
+    },
+    "tile3": {
+        "title": "Awans Zawodowy",
+        "description": "Nie od dziś wiadomo iz znajomość języków obcych pomoga w zdobyciu wymazonej pozycji zawodowej. Nie czekaj i zawalcz o to juz dziś!"
+    }
+}

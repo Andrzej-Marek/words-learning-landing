@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useMemo } from "react";
 import Image from "next/image";
 import styled from "styled-components";
 import { NavLinks } from "./NavLinks";
 import { DeviceSize } from "./responsive";
 import { MobileNavLinks } from "./MobileNavLinks";
 import { useMediaQuery } from "react-responsive";
+import { useTranslation } from "react-i18next";
 
 const NavbarContainer = styled.div`
   width: 100%;
@@ -13,6 +14,13 @@ const NavbarContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 0 1.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
 `;
 
 const LeftSection = styled.div`
@@ -31,7 +39,23 @@ const RightSection = styled.div`
 `;
 
 export function ResponsiveNavbar(props) {
+  const { t } = useTranslation("nav");
   const isMobile = useMediaQuery({ maxWidth: DeviceSize.mobile });
+
+  const links = [
+    {
+      label: t("service"),
+      to: "services",
+    },
+    {
+      label: t("details"),
+      to: "details",
+    },
+    {
+      label: t("howItWords"),
+      to: "video",
+    },
+  ];
 
   return (
     <NavbarContainer>
@@ -45,8 +69,8 @@ export function ResponsiveNavbar(props) {
       </LeftSection>
       <MiddleSection />
       <RightSection>
-        {!isMobile && <NavLinks />}
-        {isMobile && <MobileNavLinks />}
+        {!isMobile && <NavLinks links={links} />}
+        {isMobile && <MobileNavLinks links={links} />}
       </RightSection>
     </NavbarContainer>
   );

@@ -1,31 +1,40 @@
-import Head from "next/head";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import {
   Details,
   Footer,
   GlobalStyle,
   Header,
+  HomePageHead,
   NavBar,
   Services,
+  VideoContent,
 } from "../components";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Learn an new words in your favourite language</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta charSet="UTF-8" />
-        <meta
-          name="description"
-          content="The application allows you to select words and translate them. You can even save them and use them later!"
-        />
-      </Head>
+      <HomePageHead />
       <GlobalStyle />
       <NavBar />
       <Header />
       <Services />
       <Details />
+      <VideoContent />
       <Footer />
     </>
   );
 }
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, [
+      "header",
+      "common",
+      "services",
+      "details",
+      "videoContent",
+      "footer",
+      "nav",
+    ])),
+  },
+});
