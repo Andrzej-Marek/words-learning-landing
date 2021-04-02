@@ -1,1 +1,0 @@
-{"ast":null,"code":"export var DeviceSize = {\n  mobile: 768,\n  tablet: 992,\n  laptop: 1324,\n  desktop: 2024\n};","map":null,"metadata":{},"sourceType":"module"}
