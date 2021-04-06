@@ -1,0 +1,23 @@
+{
+    "free": {
+        "title": "Darmowy",
+        "description": "100% bez opłat, idealny plan do przetestowania aplikacji"
+    },
+    "normal": {
+        "title": "Normalny",
+        "description": "Zwiękoszne limity oraz możliwość wyboru kilku języków"
+    },
+    "pro": {
+        "title": "PRO",
+        "description": "Opcja dla wymagących. Gdy lubisz posiadać mnósto opcji"
+    },
+    "options": {
+        "flashCards": "Genereowanie Fiszek",
+        "unlimitedTranslations": "Tłumaczenia bez limitu",
+        "savedWordsAmounts": "{{amount}} Zapisanych Słów",
+        "languageProfileAmounts": "{{amount}} Profili Językowych",
+        "practiseSetAmounts": "{{amount}} Zestawów Praktycznych",
+        "fastSupport": "Support w 12h"
+    },
+    "monthly": "Miesięcznie"
+}

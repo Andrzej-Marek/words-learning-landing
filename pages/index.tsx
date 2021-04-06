@@ -6,6 +6,7 @@ import {
   Header,
   HomePageHead,
   NavBar,
+  Pricing,
   Services,
   VideoContent,
 } from "../components";
@@ -20,6 +21,7 @@ export default function Home() {
       <Services />
       <Details />
       <VideoContent />
+      <Pricing />
       <Footer />
     </>
   );
@@ -35,6 +37,7 @@ export const getStaticProps = async ({ locale }) => ({
       "videoContent",
       "footer",
       "nav",
+      "pricing",
     ])),
   },
 });

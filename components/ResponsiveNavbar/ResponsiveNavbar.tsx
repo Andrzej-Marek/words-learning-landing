@@ -55,6 +55,10 @@ export function ResponsiveNavbar(props) {
       label: t("howItWords"),
       to: "video",
     },
+    {
+      label: t("pricing"),
+      to: "pricing",
+    },
   ];
 
   return (
