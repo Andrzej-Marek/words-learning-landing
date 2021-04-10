@@ -7,5 +7,6 @@ export { default as VideoContent } from "./VideoContent/VideoContent";
 export { default as ScrollLink } from "./ScrollLink/ScrollLink";
 export { GlobalStyle } from "./GlobalStyles/GlobalStyles";
 export { default as Pricing } from "./Pricing/Pricing";
+export { default as HowToUse } from "./HowToUse/HowToUse";
 // Heads
 export { default as HomePageHead } from "./Heads/HomePageHead/HomePageHead";

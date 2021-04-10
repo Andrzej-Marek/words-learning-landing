@@ -6,6 +6,7 @@ import { DeviceSize } from "./responsive";
 import { MobileNavLinks } from "./MobileNavLinks";
 import { useMediaQuery } from "react-responsive";
 import { useTranslation } from "react-i18next";
+import { NavLinkList } from "../../types";
 
 const NavbarContainer = styled.div`
   width: 100%;
@@ -42,22 +43,32 @@ export function ResponsiveNavbar(props) {
   const { t } = useTranslation("nav");
   const isMobile = useMediaQuery({ maxWidth: DeviceSize.mobile });
 
-  const links = [
+  const links: NavLinkList[] = [
     {
       label: t("service"),
       to: "services",
+      pageRoute: "/",
     },
     {
       label: t("details"),
       to: "details",
+      pageRoute: "/",
     },
     {
       label: t("howItWords"),
       to: "video",
+      pageRoute: "/",
     },
     {
       label: t("pricing"),
       to: "pricing",
+      pageRoute: "/",
+    },
+    {
+      label: t("howToUse"),
+      to: "instruction",
+      pageRoute: "/instruction",
+      type: "link",
     },
   ];
 

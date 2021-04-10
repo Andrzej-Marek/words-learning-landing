@@ -4,6 +4,7 @@ import { MenuToggle } from "./MenuToggle";
 import { ScrollLink } from "..";
 import { NavLinkList } from "../../types";
 import LoginButton from "../LoginButton/LoginButton";
+import Link from "next/link";
 
 const NavLinksContainer = styled.div`
   height: 100%;
@@ -43,6 +44,8 @@ export function MobileNavLinks({ links }: Props) {
           label={link.label}
           key={link.label}
           onClick={() => setOpen(false)}
+          pageRoute={link.pageRoute}
+          type={link.type}
         />
       )),
     []

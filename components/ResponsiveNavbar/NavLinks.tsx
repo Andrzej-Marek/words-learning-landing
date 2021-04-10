@@ -11,7 +11,13 @@ export function NavLinks({ links }: Props) {
   const scrollLinksContent = useMemo(
     () =>
       links.map((link) => (
-        <ScrollLink to={link.to} label={link.label} key={link.label} />
+        <ScrollLink
+          to={link.to}
+          label={link.label}
+          key={link.label}
+          pageRoute={link.pageRoute}
+          type={link.type}
+        />
       )),
     []
   );
