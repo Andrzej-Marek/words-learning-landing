@@ -49,12 +49,8 @@ const Pricing: FC<Props> = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h2>Multiple Pricing Options</h2>
-            <p className="p-heading p-large">
-              We've prepared pricing plans for all budgets so you can get
-              started right away. They're great for small companies and large
-              organizations
-            </p>
+            <h2>{t("pricing:title")}</h2>
+            <p className="p-heading p-large">{t("pricing:description")}</p>
           </div>
         </div>
         <div className="row">
@@ -79,9 +75,9 @@ const Pricing: FC<Props> = () => {
               description={t("pricing:normal.description")}
               features={[
                 ...planFeatures({
-                  languageProfileAmounts: 2,
+                  languageProfileAmounts: 3,
                   practiseSetAmounts: 10,
-                  savedWordsAmounts: 80,
+                  savedWordsAmounts: 100,
                 }),
                 { include: false, label: t("pricing:options.fastSupport") },
               ]}
@@ -95,8 +91,8 @@ const Pricing: FC<Props> = () => {
               features={[
                 ...planFeatures({
                   languageProfileAmounts: 5,
-                  practiseSetAmounts: 20,
-                  savedWordsAmounts: 120,
+                  practiseSetAmounts: 30,
+                  savedWordsAmounts: 300,
                 }),
                 { include: true, label: t("pricing:options.fastSupport") },
               ]}

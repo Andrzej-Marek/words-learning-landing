@@ -1,4 +1,6 @@
 {
+    "title": "Dostępne Plany Cenowe",
+    "description": "Dobierz odpowieni plan cenowy, do swoich potrzeb",
     "free": {
         "title": "Darmowy",
         "description": "100% bez opłat, idealny plan do przetestowania aplikacji"
@@ -9,7 +11,7 @@
     },
     "pro": {
         "title": "PRO",
-        "description": "Opcja dla wymagących. Gdy lubisz posiadać mnósto opcji"
+        "description": "Opcja dla wymagących. Gdy lubisz posiadać mnósto słówek"
     },
     "options": {
         "flashCards": "Genereowanie Fiszek",

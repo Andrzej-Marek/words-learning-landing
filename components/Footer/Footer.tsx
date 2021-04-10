@@ -58,12 +58,12 @@ const Footer: FC<Props> = () => {
                     <i className="fab fa-facebook-f fa-stack-1x"></i>
                   </a>
                 </span>
-                <span className="fa-stack">
+                {/* <span className="fa-stack">
                   <a href={Links.INSTAGRAM} target="_blank" rel="noreferrer">
                     <i className="fas fa-circle fa-stack-2x"></i>
                     <i className="fab fa-instagram fa-stack-1x"></i>
                   </a>
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
