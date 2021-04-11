@@ -1,21 +1,21 @@
 {
     "title": "Dostępne Plany Cenowe",
-    "description": "Dobierz odpowieni plan cenowy, do swoich potrzeb",
+    "description": "Dobierz odpowieni plan cenowy do swoich potrzeb",
     "free": {
         "title": "Darmowy",
         "description": "100% bez opłat, idealny plan do przetestowania aplikacji"
     },
     "normal": {
         "title": "Normalny",
-        "description": "Zwiękoszne limity oraz możliwość wyboru kilku języków"
+        "description": "Zwiększone limity oraz możliwość wyboru kilku języków"
     },
     "pro": {
         "title": "PRO",
-        "description": "Opcja dla wymagących. Gdy lubisz posiadać mnósto słówek"
+        "description": "Opcja dla wymagających. Gdy lubisz posiadać mnósto słówek"
     },
     "options": {
-        "flashCards": "Genereowanie Fiszek",
-        "unlimitedTranslations": "Tłumaczenia bez limitu",
+        "flashCards": "Generowanie Fiszek",
+        "unlimitedTranslations": "Tłumaczenia Bez Limitu",
         "savedWordsAmounts": "{{amount}} Zapisanych Słów",
         "languageProfileAmounts": "{{amount}} Profili Językowych",
         "practiseSetAmounts": "{{amount}} Zestawów Praktycznych",

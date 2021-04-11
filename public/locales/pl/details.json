@@ -1,18 +1,18 @@
 {
     "step1": {
         "title": "Tłumaczenie Słów Przy Codziennej Pracy",
-        "description": "Wystaczy zaznaczyć słowo, a nasze rozwiązanie zaproponuje Ci odrazu możliwość przetłumaczenia danego słowa."
+        "description": "Wystarczy zaznaczyć słowo, a nasze rozwiązanie zaproponuje Ci od razu możliwość przetłumaczenia danego słowa."
     },
     "step2": {
         "title": "Funkcjonalości",
-        "description": "Dzięki naszej aplikacji, możesz uczyć sie gdziekolwiek tylko zechcesz i na jakim urządzeniu zechcesz",
+        "description": "Dzięki naszej aplikacji, możesz uczyć się gdziekolwiek tylko zechcesz i na dowolnym urządzeniu",
         "features": {
             "1": "Tłumaczenie słów oraz wyrażeń",
             "2": "Zapisywanie przetłumaczonych słów do aplikacji",
             "3": "Możliwość wyboru wielu profili językowych",
             "4": "Tworzenie fiszek",
             "5": "Interaktywne fiszki online w aplikacji",
-            "6": "Tłumacznie w wtyczcie przeglądarki"
+            "6": "Tłumaczenie we wtyczce przeglądarki"
         }
     }
 }

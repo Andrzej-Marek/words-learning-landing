@@ -18,12 +18,12 @@ const HowToUse: FC<Props> = () => {
         />
         <InstructionStep
           title="2. Utwórz profil językowy"
-          description="Profil językowy zapisuje twoje słowa, oraz wskazuje z jakiego języka na jaki ma je tłumaczyć"
+          description="Profil językowy zapisuje twoje słowa oraz wskazuje z jakiego języka na jaki ma je tłumaczyć"
           imageSrc="images/howToUse/createLanguageProfile.png"
         />
         <InstructionStep
           title="3. Pobierz swój klucz do wtyczki"
-          description="Dzięki temu kluczowi połączyć swoją aplikację z wtyczką"
+          description="Dzięki temu kluczowi połączysz swoją aplikację z wtyczką"
           imageSrc="images/howToUse/getAccessKey.png"
         />
         <InstructionStep
@@ -40,7 +40,7 @@ const HowToUse: FC<Props> = () => {
               do przeglądarki Google Chrome
             </div>
           }
-          description="Pamiętaj, aby uzywać tej wtyczki musisz być uzytkownikiem przeglądarki google chrome!"
+          description="Pamiętaj, aby używać tej wtyczki musisz być użytkownikiem przeglądarki Google Chrome!"
           imageSrc="images/howToUse/downloadChromeExtension.png"
         />
         <InstructionStep
@@ -49,8 +49,8 @@ const HowToUse: FC<Props> = () => {
           imageSrc="images/howToUse/pasteAccessKey.png"
         />
         <InstructionStep
-          title="6. Tłumacz słowa i wyrazenia na stronach internetowych!"
-          description="Zaznacz słowo które Cie interesuje, pojawi się mały kwadracik na który wystarczy kliknąc aby przetłumacz dane słowo"
+          title="6. Tłumacz słowa i wyrażenia na stronach internetowych!"
+          description="Zaznacz słowo które Cie interesuje, pojawi się mały kwadracik, na który wystarczy kliknąć, aby przetłumaczyć dane słowo"
           imageSrc="images/howToUse/translate.png"
         />
       </div>
