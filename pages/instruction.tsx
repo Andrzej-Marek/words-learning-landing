@@ -4,10 +4,8 @@ import {
   HomePageHead,
   GlobalStyle,
   NavBar,
-  Header,
   HowToUse,
   Footer,
-  VideoContent,
 } from "../components";
 
 interface OwnProps {}
@@ -21,7 +19,6 @@ const Instruction: FC<Props> = () => {
       <GlobalStyle />
       <NavBar />
       <HowToUse />
-      <VideoContent />
       <Footer />
     </div>
   );

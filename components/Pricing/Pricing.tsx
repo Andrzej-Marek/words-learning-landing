@@ -32,9 +32,16 @@ const Pricing: FC<Props> = () => {
     },
     {
       include: true,
-      label: t("pricing:options.languageProfileAmounts", {
-        amount: languageProfileAmounts,
-      }),
+      label: t(
+        `pricing:options.${
+          languageProfileAmounts === 1
+            ? "languageProfileAmountOne"
+            : "languageProfileAmounts"
+        }`,
+        {
+          amount: languageProfileAmounts,
+        }
+      ),
     },
     {
       include: true,

@@ -17,6 +17,7 @@
         "flashCards": "Generowanie Fiszek",
         "unlimitedTranslations": "Tłumaczenia Bez Limitu",
         "savedWordsAmounts": "{{amount}} Zapisanych Słów",
+        "languageProfileAmountOne": "{{amount}} Profil Językowy",
         "languageProfileAmounts": "{{amount}} Profili Językowych",
         "practiseSetAmounts": "{{amount}} Zestawów Praktycznych",
         "fastSupport": "Support w 12h"

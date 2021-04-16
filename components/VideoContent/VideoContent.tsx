@@ -22,7 +22,7 @@ const VideoContent: FC<Props> = () => {
               <div className="video-wrapper">
                 <ReactPlayer
                   className="react-player"
-                  url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+                  url="https://www.youtube.com/watch?v=ABM1xdODPnU"
                   width="100%"
                   height="100%"
                 />

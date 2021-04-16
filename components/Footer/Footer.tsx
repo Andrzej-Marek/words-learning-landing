@@ -18,6 +18,8 @@ const Footer: FC<Props> = () => {
               <div className="footer-col">
                 <h4>{t("about")}</h4>
                 <p>{t("description")}</p>
+                <a href="mailto:wordswheel@gmail.com">{t("emailUs")}</a>
+                <p>wordshweel@gmail.com</p>
               </div>
             </div>
             <div className="col-md-4">

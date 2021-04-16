@@ -65,6 +65,11 @@ export function ResponsiveNavbar(props) {
       pageRoute: "/",
     },
     {
+      label: t("help"),
+      pageRoute: "/",
+      to: "video-help",
+    },
+    {
       label: t("howToUse"),
       to: "instruction",
       pageRoute: "/instruction",

@@ -8,7 +8,7 @@ type Props = OwnProps;
 const HomePageHead: FC<Props> = () => {
   return (
     <Head>
-      <title>Learn an new words in your favourite language</title>
+      <title>Wordswheel - Discover & Learn</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta charSet="UTF-8" />
       <meta

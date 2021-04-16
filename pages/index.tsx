@@ -9,6 +9,7 @@ import {
   Pricing,
   Services,
   VideoContent,
+  VideoHelp,
 } from "../components";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Details />
       <VideoContent />
       <Pricing />
+      <VideoHelp />
       <Footer />
     </>
   );
