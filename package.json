@@ -20,6 +20,7 @@
     "styled-components": "^5.2.3"
   },
   "devDependencies": {
+    "@types/gtag.js": "0.0.4",
     "@types/react": "^17.0.3",
     "@types/react-responsive": "^8.0.2",
     "@types/react-scroll": "^1.8.2",
