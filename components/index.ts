@@ -9,5 +9,7 @@ export { GlobalStyle } from "./GlobalStyles/GlobalStyles";
 export { default as Pricing } from "./Pricing/Pricing";
 export { default as HowToUse } from "./HowToUse/HowToUse";
 export { default as VideoHelp } from "./VideoHelp/VideoHelp";
+export { default as CookieInformation } from "./CookieInformation/CookieInformation";
+
 // Heads
 export { default as HomePageHead } from "./Heads/HomePageHead/HomePageHead";

@@ -1643,12 +1643,37 @@ a:hover.back-to-top {
   background-color: #f9fafc;
 }
 
+.cookie-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background: #fff;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.cookie-footer button {
+  margin-top: 5px;
+}
 /*****************************/
 /*     20. Media Queries     */
 /*****************************/
 /* Min-width width 768px */
 @media (min-width: 768px) {
   /* General Styles */
+  .cookie-footer {
+    flex-direction: row;
+  }
+
   .p-heading {
     width: 85%;
     margin-right: auto;
