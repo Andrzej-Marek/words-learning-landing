@@ -20,6 +20,13 @@ const Footer: FC<Props> = () => {
                 <p>{t("description")}</p>
                 <a href="mailto:wordswheel@gmail.com">{t("emailUs")}</a>
                 <p>wordshweel@gmail.com</p>
+                <a
+                  href="documents/wordswheel_polityka_prywatnosci.pdf"
+                  target="_href"
+                  rel="noreferrer"
+                >
+                  {t("privatePolitic")}
+                </a>
               </div>
             </div>
             <div className="col-md-4">
